@@ -1,0 +1,137 @@
+/* Wireframe 5a page style */
+.w5a_pageContainer {
+	margin-top: 10px;
+}
+
+.w5a_pageContainer * {
+	box-sizing: border-box;
+}
+
+.w5a_pageContainer .container {
+	margin-top: 0px;
+}
+
+/* Duration Radio Buttons */
+#duration-inline-radio-1,
+#duration-inline-radio-2,
+#duration-inline-radio-3,
+#duration-inline-radio-4 {
+	visibility: visible;
+}
+
+/* Calendar CSS */
+.w5a_calendarTitleContainer {
+	display: inline-block;
+	width: 243px;
+	border-radius: 5px;
+	border: 2px solid black;
+	background-color: #6c757d;
+	color: #f8f9fa;
+}
+
+.w5a_calendarTitle {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.w5a_calendarText {
+	text-align: center;
+	padding: 6px;
+}
+
+/* Subject CSS  */
+.w5a_listHeading {
+	border: 2px solid black;
+	padding: 6px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #6c757d;
+	color: #f8f9fa;
+}
+
+.w5a_subjectTitle {
+	display: flex;
+	justify-content: space-between;
+}
+
+.w5a_subjectTitleText {
+	font-size: 1.2rem;
+}
+
+.w5a_subjectItemContainer {
+	border: 2px solid black;
+	margin: 5px;
+	padding: 6px;
+	border-radius: 3px;
+}
+
+.w5a_subjectListContainer {
+	border: 2px solid black;
+	border-radius: 5px;
+	overflow: auto;
+	height: 240px;
+}
+
+.w5a_inputGroup input {
+	width: 100%;
+	font-size: 1rem;
+	border-radius: 3px;
+	border: 1px solid black;
+}
+
+.w5a_inputGroup {
+	margin-top: 15px;
+}
+
+.w5a_inputGroup label {
+	line-height: 1;
+}
+
+.w5a_addSubjectButton {
+	margin-top: 25px;
+}
+
+/* Available Times List */
+.w5a_itemsContainer {
+	border: 2px solid black;
+	border-radius: 5px;
+	height: 170px;
+	overflow: auto;
+}
+
+.w5a_itemStyle {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 2px solid black;
+	border-radius: 3px;
+	margin: 4px;
+	padding: 3px;
+	font-size: 1rem;
+}
+
+/* Select Time and Duration CSS */
+.w5a_flexRowContainer {
+	display: flex;
+}
+
+.w5a_flexRowItem {
+	flex: 1;
+}
+
+.w5a_flexColumnContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 100%;
+}
+
+.w5a_alertMessage {
+	margin-top: 5px;
+}
+
+.w5a_addTimeSlotButton button {
+	width: auto;
+}

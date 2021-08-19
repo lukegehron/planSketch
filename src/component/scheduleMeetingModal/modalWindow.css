@@ -1,0 +1,59 @@
+.w5_modalWindow button {
+	width: auto;
+}
+
+.w5_modalWindow .container {
+	margin-top: 0px;
+}
+
+.w5_modalTitle {
+	font-size: 1.2rem;
+	margin-bottom: 5px;
+}
+
+.w5_columnTitle {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.w5_itemsContainer {
+	border: 2px solid black;
+	border-radius: 5px;
+	height: 80px;
+	overflow: auto;
+}
+
+.w5_itemStyle {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 2px solid black;
+	border-radius: 3px;
+	margin: 4px;
+	padding: 3px;
+	font-size: 0.82rem;
+}
+
+.w5_modalButtons {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.w5_modalButtons button {
+	width: auto;
+}
+
+.w5_modalScheduleButton {
+	margin-left: 10px;
+}
+
+.w5_dateComponent button {
+	width: 15%;
+}
+
+/* gets triggered at 576px (sm) and above */
+@media screen and (min-width: 576px) {
+	.w5_itemsContainer {
+		height: 280px;
+	}
+}
